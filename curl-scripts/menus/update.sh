@@ -7,7 +7,7 @@ URL_PATH="/menu"
 
 curl "${API}${URL_PATH}/${ID}" \
   --include \
-  --request PATCH \
+  --request POST \
   --header "Content-Type: application/json" \
 --header "Authorization: Bearer ${TOKEN}" \
 --data '{
